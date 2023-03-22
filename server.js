@@ -5,7 +5,7 @@ const { request } = require("http");
 const path = require("path");
 const app = express();
 // Server port, able to be deployed on heroku
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 80;
 // JSON responses
 app.use(express.json());
 // Serve static files with this program
